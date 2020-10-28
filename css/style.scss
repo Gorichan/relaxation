@@ -1,0 +1,333 @@
+a {
+    text-decoration: none;
+}
+section {
+    padding: 50px 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #a3cf62;
+    padding: 10px;
+    .navbar {
+        a {
+            font-family: "Exo 2", sans-serif;
+            font-size: 26px;
+            line-height: 21px;
+            font-weight: 400;
+            text-transform: uppercase;
+
+            color: #ffffff;
+        }
+        .navbar-toggler {
+            border-color: #fff;
+            padding: 5px;
+            span {
+                display: block;
+                width: 20px;
+                height: 2px;
+                background: #fff;
+                margin: 4px;
+            }
+        }
+        .btn__header {
+            font-family: "Montserrat", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            padding: 10px 26px;
+            background: #ffffff;
+            border-radius: 250px;
+            border-color: transparent;
+            transition: 0.5s;
+            &:hover {
+                border-radius: 0;
+            }
+        }
+        .header__info {
+            a {
+                display: block;
+            }
+
+            .telefone {
+                font-family: "Montserrat", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            .e-mail {
+                font-family: "Montserrat", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+
+                text-align: right;
+            }
+        }
+    }
+    .nav-item {
+        padding: 0 12px;
+        a {
+            font-family: "Exo 2", sans-serif;
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #ffffff;
+            transition: 0.5s;
+            border-bottom: 1px solid transparent;
+
+            &:hover {
+                border-bottom: 1px solid #ffff;
+            }
+        }
+    }
+    .nav__actions {
+        a {
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #ffffff;
+        }
+    }
+}
+
+.home {
+    h1 {
+        font-family: "Exo 2", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        color: #000;
+    }
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000;
+    }
+    .btn__home {
+        color: #fff;
+        padding: 5px 25px;
+        background: #a3cf62;
+        border-radius: 250px;
+        border-color: transparent;
+        transition: 0.5s;
+        &:hover {
+            border-radius: 0;
+        }
+    }
+    img {
+        border-radius: 50px;
+    }
+}
+
+.about {
+    background-image: url("/img/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .about__inner {
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 50px;
+        h2 {
+            font-family: "Exo 2", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 55px;
+            line-height: 60px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 14px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+}
+
+.prices {
+    h2 {
+        font-family: "Exo 2", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 60px;
+        margin-bottom: 34px;
+    }
+    .preces__inner {
+        border: 1px solid #c9c9c9;
+        box-sizing: border-box;
+        border-radius: 20px;
+
+        .preces__inner-text {
+            padding: 25px;
+            border-top: 1px solid #c9c9c9;
+            display: flex;
+            justify-content: space-between;
+            p {
+                width: 80%;
+                font-size: 16px;
+                line-height: 22px;
+            }
+            span {
+                width: 20%;
+                text-align: right;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+.gallery {
+    h2 {
+        font-family: "Exo 2", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 60px;
+        margin-bottom: 33px;
+    }
+    .btn__gallery {
+        color: #fff;
+        padding: 5px 25px;
+        background: #a3cf62;
+        border-radius: 250px;
+        border-color: transparent;
+        transition: 0.5s;
+        &:hover {
+            border-radius: 0;
+        }
+    }
+    .img__gallery {
+        border-radius: 20px;
+    }
+    .gallery__inner-img {
+        span {
+            font-size: 20px;
+            line-height: 60px;
+        }
+    }
+}
+.benefits {
+    background-image: url("/img/benefits-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    h2 {
+        font-family: "Exo 2", sans-serif;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 60px;
+        margin-bottom: 32px;
+    }
+    .benefists__card {
+        max-width: 270px;
+        max-height: 276px;
+        align-items: center;
+        background: #ffffff;
+        border: 1px solid #c9c9c9;
+        border-radius: 25px;
+        padding: 10px;
+        p {
+            font-family: "Montserrat", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            text-align: center;
+            margin: 30px;
+        }
+        .berefists__card-inner {
+            margin: 0 auto;
+            background-color: #a3cf62;
+            max-width: 90px;
+            max-height: 90px;
+            border-radius: 100px;
+            align-items: center;
+            img {
+                margin: 20px;
+                width: 52px;
+                height: auto;
+            }
+        }
+    }
+}
+
+.contacts {
+    h2 {
+        font-family: "Exo 2", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 60px;
+    }
+    a {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 60px;
+        color: #000000;
+    }
+    .e-mail{
+        margin-bottom: 12px;
+        p {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 0;
+            
+        }
+        span {
+            font-weight: 300;
+            font-size: 16px;
+            margin-bottom: 12px;
+            
+        }
+    }
+    .adres{
+        p {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 0;
+            
+        }
+        span {
+            font-weight: 300;
+            font-size: 16px;
+            margin-bottom: 12px;
+            
+        }
+    }
+    
+    .btn__contacts {
+        color: #fff;
+        padding: 5px 25px;
+        background: #a3cf62;
+        border-radius: 250px;
+        border-color: transparent;
+        transition: 0.5s;
+        margin-top: 50px;
+        &:hover {
+            border-radius: 0;
+        }
+    }
+    .map {
+        iframe {
+            width: 570px;
+            height: 312px;
+        }
+    }
+}

@@ -1,0 +1,257 @@
+a {
+  text-decoration: none; }
+
+section {
+  padding: 50px 0; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.header {
+  background-color: #a3cf62;
+  padding: 10px; }
+  .header .navbar a {
+    font-family: "Exo 2", sans-serif;
+    font-size: 26px;
+    line-height: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .header .navbar .navbar-toggler {
+    border-color: #fff;
+    padding: 5px; }
+    .header .navbar .navbar-toggler span {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: #fff;
+      margin: 4px; }
+  .header .navbar .btn__header {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 26px;
+    background: #ffffff;
+    border-radius: 250px;
+    border-color: transparent;
+    transition: 0.5s; }
+    .header .navbar .btn__header:hover {
+      border-radius: 0; }
+  .header .navbar .header__info a {
+    display: block; }
+  .header .navbar .header__info .telefone {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px; }
+  .header .navbar .header__info .e-mail {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: right; }
+  .header .nav-item {
+    padding: 0 12px; }
+    .header .nav-item a {
+      font-family: "Exo 2", sans-serif;
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+      transition: 0.5s;
+      border-bottom: 1px solid transparent; }
+      .header .nav-item a:hover {
+        border-bottom: 1px solid #ffff; }
+  .header .nav__actions a {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff; }
+
+.home h1 {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  color: #000; }
+.home p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000; }
+.home .btn__home {
+  color: #fff;
+  padding: 5px 25px;
+  background: #a3cf62;
+  border-radius: 250px;
+  border-color: transparent;
+  transition: 0.5s; }
+  .home .btn__home:hover {
+    border-radius: 0; }
+.home img {
+  border-radius: 50px; }
+
+.about {
+  background-image: url("/img/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .about .about__inner {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 50px; }
+    .about .about__inner h2 {
+      font-family: "Exo 2", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 55px;
+      line-height: 60px;
+      margin-bottom: 20px; }
+    .about .about__inner p {
+      margin-bottom: 14px;
+      font-size: 16px;
+      line-height: 26px; }
+
+.prices h2 {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 60px;
+  margin-bottom: 34px; }
+.prices .preces__inner {
+  border: 1px solid #c9c9c9;
+  box-sizing: border-box;
+  border-radius: 20px; }
+  .prices .preces__inner .preces__inner-text {
+    padding: 25px;
+    border-top: 1px solid #c9c9c9;
+    display: flex;
+    justify-content: space-between; }
+    .prices .preces__inner .preces__inner-text p {
+      width: 80%;
+      font-size: 16px;
+      line-height: 22px; }
+    .prices .preces__inner .preces__inner-text span {
+      width: 20%;
+      text-align: right;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px; }
+
+.gallery h2 {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 60px;
+  margin-bottom: 33px; }
+.gallery .btn__gallery {
+  color: #fff;
+  padding: 5px 25px;
+  background: #a3cf62;
+  border-radius: 250px;
+  border-color: transparent;
+  transition: 0.5s; }
+  .gallery .btn__gallery:hover {
+    border-radius: 0; }
+.gallery .img__gallery {
+  border-radius: 20px; }
+.gallery .gallery__inner-img span {
+  font-size: 20px;
+  line-height: 60px; }
+
+.benefits {
+  background-image: url("/img/benefits-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .benefits h2 {
+    font-family: "Exo 2", sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 60px;
+    margin-bottom: 32px; }
+  .benefits .benefists__card {
+    max-width: 270px;
+    max-height: 276px;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    border-radius: 25px;
+    padding: 10px; }
+    .benefits .benefists__card p {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+      margin: 30px; }
+    .benefits .benefists__card .berefists__card-inner {
+      margin: 0 auto;
+      background-color: #a3cf62;
+      max-width: 90px;
+      max-height: 90px;
+      border-radius: 100px;
+      align-items: center; }
+      .benefits .benefists__card .berefists__card-inner img {
+        margin: 20px;
+        width: 52px;
+        height: auto; }
+
+.contacts h2 {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 60px; }
+.contacts a {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 60px;
+  color: #000000; }
+.contacts .e-mail {
+  margin-bottom: 12px; }
+  .contacts .e-mail p {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0; }
+  .contacts .e-mail span {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 12px; }
+.contacts .adres p {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0; }
+.contacts .adres span {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 12px; }
+.contacts .btn__contacts {
+  color: #fff;
+  padding: 5px 25px;
+  background: #a3cf62;
+  border-radius: 250px;
+  border-color: transparent;
+  transition: 0.5s;
+  margin-top: 50px; }
+  .contacts .btn__contacts:hover {
+    border-radius: 0; }
+.contacts .map iframe {
+  width: 570px;
+  height: 312px; }
+
+/*# sourceMappingURL=style.css.map */
